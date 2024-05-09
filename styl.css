@@ -14,6 +14,8 @@ nav {
   padding-right: 120px;
   position: fixed;
   width: 100%;
+  background-color: #312f2f;
+  z-index: 15;
 }
 
 nav h1 a {
@@ -54,8 +56,13 @@ nav ul li a:hover {
   align-items: center;
 }
 
+.hero-img {
+  position: sticky;
+}
+
 .hero-img img {
-  height: 622px;
+  max-height: 622px;
+  max-width: 800px;
 }
 
 .hero-left-content h2 {
@@ -111,4 +118,158 @@ nav ul li a:hover {
 .hero-btn-2:hover {
   background-color: cadetblue;
   transition: all 5s ease;
+}
+
+#click {
+  display: none;
+}
+
+nav label {
+  display: none;
+  color: white;
+}
+
+#about {
+  background-color: #312f2f;
+  padding-top: 50px;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 120px;
+  padding-right: 120px;
+  gap: 80px;
+}
+
+.about-content {
+  width: 110%;
+}
+
+.about-content h3 {
+  padding-bottom: 10px;
+}
+
+.about-content h2 {
+  padding-bottom: 10px;
+}
+
+.about-content p {
+  padding-bottom: 10px;
+}
+
+.about-content h4 i {
+  margin: 2px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border-radius: 50%;
+  background-color: #163d4d;
+}
+
+.about-content h4 i:hover {
+  background-color: #2991ba;
+}
+
+.about-btn {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.about-btn-1 {
+  padding: 15px 40px 15px 40px;
+  margin-right: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #3e57d0;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.about-btn-2 {
+  background-color: #ffbd39;
+  padding: 15px 40px 15px 40px;
+  margin-right: 20px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.about-div-elements {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+  align-content: center;
+  align-items: center;
+}
+
+.about-box {
+  width: 250px;
+  height: 150px;
+  margin: 10px;
+  background-color: #3e3c3c;
+  align-content: center;
+  text-align: center;
+}
+.about-box > h1 {
+  font-size: 48px;
+}
+
+.service-content {
+  padding: 100px 0px 70px;
+}
+
+.all-heading {
+  text-align: center;
+}
+.all-heading > h1 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  nav label {
+    display: block;
+    font-size: 25px;
+  }
+  nav ul {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 70%;
+    background-color: black;
+    display: none;
+  }
+  #click:checked ~ nav ul {
+    display: block;
+    margin-left: 120px;
+  }
+  #hero {
+    height: auto;
+  }
+  .hero-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 50px;
+    gap: 50px;
+  }
+  .about-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 120px;
+    padding-right: 120px;
+    gap: 80px;
+  }
 }/*# sourceMappingURL=styl.css.map */
