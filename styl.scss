@@ -1,15 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 // header{
 //     background-color: #333;
 //     height: 100vh;
 // }
 
-nav{
+nav {
     display: flex;
     height: 80px;
     justify-content: space-between;
@@ -21,35 +22,41 @@ nav{
     width: 100%;
     background-color: #312f2f;
     z-index: 15;
-    
+
 }
-nav h1 a{
+
+nav h1 a {
     color: white;
     text-decoration: none;
 }
-nav ul{
+
+nav ul {
     display: flex;
     list-style: none;
 
 }
-nav ul li{
+
+nav ul li {
     margin: 20px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: rgba(245, 245, 245, 0.784);
     font-size: 17px;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: white;
 }
 
-#hero{
+#hero {
     padding-top: 80px;
     background-color: #333;
     height: 100vh;
 }
-.hero-content{
+
+.hero-content {
     display: flex;
     justify-content: space-between;
     padding-left: 120px;
@@ -57,12 +64,12 @@ nav ul li a:hover{
     align-items: center;
 }
 
-.hero-img{
-        position: sticky;
-   
+.hero-img {
+    position: sticky;
+
 }
 
-.hero-img img{
+.hero-img img {
 
     max-height: 622px;
     max-width: 800px;
@@ -71,46 +78,51 @@ nav ul li a:hover{
 
 // hero content
 
-.hero-left-content h2{
+.hero-left-content h2 {
     font-size: 30px;
     color: white;
 
 }
-.hero-left-content h1{
+
+.hero-left-content h1 {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 30px;
     color: white;
 
 }
-.hero-content p{
+
+.hero-content p {
     color: white;
     font-size: 18px;
     line-height: 2.0;
 }
-.hero-btn{
+
+.hero-btn {
     margin-top: 20px;
 }
-.hero-btn-1{
-padding: 10px 40px 10px 40px;
-font-size: 17px;
-font-weight:bold;
-cursor: pointer;
-color: white;
-background-color: rgba(29, 29, 189, 0.637);
-outline: none;
-border: transparent;
+
+.hero-btn-1 {
+    padding: 10px 40px 10px 40px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(29, 29, 189, 0.637);
+    outline: none;
+    border: transparent;
 
 }
-.hero-btn-1:hover{
-    background-color:cadetblue;
+
+.hero-btn-1:hover {
+    background-color: cadetblue;
     transition: all 5s ease;
 }
 
-.hero-btn-2{
+.hero-btn-2 {
     padding: 10px 40px 10px 40px;
     font-size: 17px;
-    font-weight:bold;
+    font-weight: bold;
     cursor: pointer;
     color: white;
     background-color: rgba(29, 29, 189, 0.637);
@@ -118,70 +130,79 @@ border: transparent;
     border: transparent;
     margin-left: 20px;
 }
-.hero-btn-2:hover{
-    background-color:cadetblue;
+
+.hero-btn-2:hover {
+    background-color: cadetblue;
 
     transition: all 5s ease;
 }
 
-#click{
+#click {
     display: none;
 }
-nav label{
+
+nav label {
     display: none;
     color: white;
-    
+
 }
 
 
 
 // about
 
-#about{
+#about {
     background-color: #312f2f;
     padding-top: 50px;
     color: white;
     padding-bottom: 100px;
 }
-.about-container{
+
+.about-container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding-left: 120px;
     padding-right: 120px;
     gap: 80px;
 }
-.about-content{
+
+.about-content {
     width: 110%;
 }
-.about-content h3{
+
+.about-content h3 {
     padding-bottom: 10px;
 
-    
+
 }
 
-.about-content h2{
+.about-content h2 {
     padding-bottom: 10px;
 }
-.about-content p{
+
+.about-content p {
     padding-bottom: 10px;
 }
-.about-content h4 i{
+
+.about-content h4 i {
     margin: 2px;
     padding: 10px;
     text-decoration: none;
     color: white;
     border-radius: 50%;
-    background-color:#163d4d ;
+    background-color: #163d4d;
 }
-.about-content h4 i:hover{
+
+.about-content h4 i:hover {
     background-color: #2991ba;
 }
 
-.about-btn{
+.about-btn {
     margin-top: 30px;
     margin-bottom: 10px;
 }
-.about-btn-1{
+
+.about-btn-1 {
     padding: 15px 40px 15px 40px;
     margin-right: 20px;
     font-weight: bold;
@@ -193,6 +214,7 @@ nav label{
 
 
 }
+
 .about-btn-2 {
     background-color: #ffbd39;
     padding: 15px 40px 15px 40px;
@@ -205,9 +227,9 @@ nav label{
 }
 
 // div elements
-.about-div-elements{
+.about-div-elements {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 0px;
     align-content: center;
     align-items: center;
@@ -215,28 +237,36 @@ nav label{
 
 
 
-.about-box{
+.about-box {
     width: 250px;
     height: 150px;
     margin: 10px;
     background-color: #3e3c3c;
     align-content: center;
     text-align: center;
-    >h1{
+
+    >h1 {
         font-size: 48px;
     }
 }
 
 // service section
-.service-content{
+#service {
+    background-color: #333;
+}
+
+.service-content {
 
     padding: 100px 0px 70px;
 }
 
-.all-heading{
+.all-heading {
+    padding-left: 120px;
+    padding-right: 120px;
     text-align: center;
+    color: white;
 
-    >h1{
+    >h1 {
         font-size: 30px;
         font-weight: 700;
         letter-spacing: 2px;
@@ -244,41 +274,267 @@ nav label{
     }
 }
 
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 120px;
+    padding-right: 120px;
+    justify-items: center;
 
 
 
+
+}
+
+.service-box {
+    margin: 10px;
+    background-color: #262020;
+    text-align: center;
+    align-content: center;
+    padding: 40px 26px;
+    color: white;
+
+    max-height: 235px;
+    min-width: 405px;
+
+
+}
+
+.service-box i {
+    padding: 20px;
+    background-color: #ffbd39;
+    font-size: 40px;
+    // border-radius: 50%;
+    border-top-left-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.service-box h2 {
+    font-weight: bold;
+
+}
+
+.service-box:hover h2 {
+    color: #ffbd39;
+}
+
+.service-box p {
+    font-size: 16.5px;
+}
+
+// my resume section
+#resume {
+    background-color: #312f2f;
+}
+
+.resume-content {
+    padding: 100px 0px 70px;
+
+}
+
+.resume-heading h2 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 38px;
+    color: white;
+}
+
+.resume-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 120px;
+    padding-right: 120px;
+    justify-items: center;
+}
+
+.resume-box {
+    max-height: 235px;
+    min-width: 405px;
+    text-align: left;
+    box-shadow: 0px 2px 5px #4d4b4b;
+
+}
+
+.resume-box-content {
+    padding: 30px 20px;
+    color: white;
+}
+
+.resume-box-content span {
+    background: #ffbd39;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 2px 14px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.resume-box-content h2 {
+    margin-bottom: 2px;
+    margin-top: 12px;
+
+}
+
+.resume-box-content h4 {
+    margin-bottom: 20px;
+
+}
+
+.experience-1 {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    justify-content: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    justify-items: center;
+
+}
+
+.experience-heading {
+    padding-top: 30px;
+}
+
+
+// portfolio start
+
+#portfolio {
+    background-color: #333;
+}
+
+.portfolio-content {
+
+    padding: 100px 0px 70px;
+}
+
+.portfolio-menu {
+    margin-top: 50px;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: white;
+        margin: 15px;
+    }
+
+    a:hover {
+        color: #ffbd39;
+    }
+}
+
+.portfolio-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.portfolio-box {
+    margin: 10px;
+}
+
+.portfolio-box img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.portfolio-box img:hover {
+    transition: all 5s ease;
+
+}
+
+
+
+// client feedback
+#client-feedback{
+    background-color: #312f2f;
+}
+.client-feedback-content{
+    padding: 100px 0px 70px;
+}
+
+// close
+
+// blog start
+#blog{
+    background-color: #333;
+}
+.blog-content{
+    padding: 100px 0px 70px;
+}
+.blog-box img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.blog-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 120px;
+    padding-right: 120px;
+    justify-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.box{
+    max-height: 235px;
+    min-width: 405px;
+    text-align: left;
+    box-shadow: 0px 2px 5px #4d4b4b;
+    background-color: #2991ba;
+ 
+
+}
+
+.box-data{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: #2991ba;
+}
 
 
 @media screen and (max-width:768px) {
 
-    nav label{
+    nav label {
         display: block;
         font-size: 25px;
     }
-    nav ul{
+
+    nav ul {
         position: absolute;
         top: 80px;
         left: 0px;
         width: 70%;
         background-color: black;
         display: none;
-       
+
     }
 
-    #click:checked~ nav ul{
+    #click:checked~nav ul {
         display: block;
         margin-left: 120px;
-      
 
 
-       
+
+
     }
-    #hero{
+
+    #hero {
         height: auto;
     }
-    .hero-content{
+
+    .hero-content {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         align-items: center;
         align-content: center;
         justify-items: center;
@@ -290,11 +546,57 @@ nav label{
 
     // about
 
-    .about-container{
+    .about-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 120px;
+        padding-right: 120px;
+        gap: 80px;
+    }
+
+    .service-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 120px;
+        padding-right: 120px;
+
+
+
+    }
+
+    .resume-container {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+
+    .experience-1 {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        justify-content: center;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    .portfolio-container {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+    .blog-container{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         padding-left: 120px;
         padding-right: 120px;
-        gap: 80px;
+        justify-items: center;
+        margin-top: 30px;
+        gap: 20px;
     }
 }

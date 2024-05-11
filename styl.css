@@ -220,18 +220,224 @@ nav label {
   font-size: 48px;
 }
 
+#service {
+  background-color: #333;
+}
+
 .service-content {
   padding: 100px 0px 70px;
 }
 
 .all-heading {
+  padding-left: 120px;
+  padding-right: 120px;
   text-align: center;
+  color: white;
 }
 .all-heading > h1 {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 2px;
   margin-bottom: 15px;
+}
+
+.service-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 120px;
+  padding-right: 120px;
+  justify-items: center;
+}
+
+.service-box {
+  margin: 10px;
+  background-color: #262020;
+  text-align: center;
+  align-content: center;
+  padding: 40px 26px;
+  color: white;
+  max-height: 235px;
+  min-width: 405px;
+}
+
+.service-box i {
+  padding: 20px;
+  background-color: #ffbd39;
+  font-size: 40px;
+  border-top-left-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.service-box h2 {
+  font-weight: bold;
+}
+
+.service-box:hover h2 {
+  color: #ffbd39;
+}
+
+.service-box p {
+  font-size: 16.5px;
+}
+
+#resume {
+  background-color: #312f2f;
+}
+
+.resume-content {
+  padding: 100px 0px 70px;
+}
+
+.resume-heading h2 {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 38px;
+  color: white;
+}
+
+.resume-container {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 120px;
+  padding-right: 120px;
+  justify-items: center;
+}
+
+.resume-box {
+  max-height: 235px;
+  min-width: 405px;
+  text-align: left;
+  box-shadow: 0px 2px 5px #4d4b4b;
+}
+
+.resume-box-content {
+  padding: 30px 20px;
+  color: white;
+}
+
+.resume-box-content span {
+  background: #ffbd39;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 2px 14px;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.resume-box-content h2 {
+  margin-bottom: 2px;
+  margin-top: 12px;
+}
+
+.resume-box-content h4 {
+  margin-bottom: 20px;
+}
+
+.experience-1 {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  justify-content: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  justify-items: center;
+}
+
+.experience-heading {
+  padding-top: 30px;
+}
+
+#portfolio {
+  background-color: #333;
+}
+
+.portfolio-content {
+  padding: 100px 0px 70px;
+}
+
+.portfolio-menu {
+  margin-top: 50px;
+  text-align: center;
+}
+.portfolio-menu a {
+  text-decoration: none;
+  color: white;
+  margin: 15px;
+}
+.portfolio-menu a:hover {
+  color: #ffbd39;
+}
+
+.portfolio-container {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.portfolio-box {
+  margin: 10px;
+}
+
+.portfolio-box img {
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio-box img:hover {
+  transition: all 5s ease;
+}
+
+#client-feedback {
+  background-color: #312f2f;
+}
+
+.client-feedback-content {
+  padding: 100px 0px 70px;
+}
+
+#blog {
+  background-color: #333;
+}
+
+.blog-content {
+  padding: 100px 0px 70px;
+}
+
+.blog-box img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.blog-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 120px;
+  padding-right: 120px;
+  justify-items: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.box {
+  max-height: 235px;
+  min-width: 405px;
+  text-align: left;
+  box-shadow: 0px 2px 5px #4d4b4b;
+  background-color: #2991ba;
+}
+
+.box-data {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-color: #2991ba;
 }
 
 @media screen and (max-width: 768px) {
@@ -271,5 +477,43 @@ nav label {
     padding-left: 120px;
     padding-right: 120px;
     gap: 80px;
+  }
+  .service-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .resume-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .experience-1 {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    justify-content: center;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .portfolio-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .blog-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 120px;
+    padding-right: 120px;
+    justify-items: center;
+    margin-top: 30px;
+    gap: 20px;
   }
 }/*# sourceMappingURL=styl.css.map */
