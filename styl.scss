@@ -451,30 +451,35 @@ nav label {
 
 
 // client feedback
-#client-feedback{
+#client-feedback {
     background-color: #312f2f;
 }
-.client-feedback-content{
+
+.client-feedback-content {
     padding: 100px 0px 70px;
 }
 
 // close
 
 // blog start
-#blog{
+#blog {
+    position: relative;
     background-color: #333;
+    z-index: 14;
 }
-.blog-content{
+
+.blog-content {
     padding: 100px 0px 70px;
 }
-.blog-box img{
+
+.blog-box-img-3 img {
     max-width: 100%;
     max-height: 100%;
 }
 
-.blog-container{
+.blog-container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding-left: 120px;
     padding-right: 120px;
     justify-items: center;
@@ -482,25 +487,89 @@ nav label {
     gap: 20px;
 }
 
-.box{
-    max-height: 235px;
-    min-width: 405px;
+.box {
+   max-height: 235px;
+    max-width: 415px;
     text-align: left;
     box-shadow: 0px 2px 5px #4d4b4b;
-    background-color: #2991ba;
- 
+    // background-color: #2991ba;
+    position: relative;
+    top: -5px;
+    padding: 20px 25px 20px 25px;
+    color: white;
+    line-height: 1.4;
+    >h1 a{
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+      
 
+
+    }
+    .box-para{
+
+        padding-bottom: 10px;
+    }
+    .box-para a{
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+
+    }
+>h4{
+    margin-top: 15px;
+}
+>h4 a{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    cursor: pointer;
+}
 }
 
-.box-data{
-    width: 100px;
-    height: 100px;
+.box-data-1 {
+    width: 60px;
+    height: 60px;
     position: absolute;
-    top: 30px;
-    left: 30px;
-    background-color: #2991ba;
+    background-color: #ffbd39;
+    z-index: 15;
+    top: 260px;
+    left: 10%;
+    color: white;
+    z-index: 15;
+    text-align: center;
+
 }
 
+.box-data-2 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: #ffbd39;
+    top: 260px;
+    left: 38%;
+    color: white;
+    z-index: 15;
+    text-align: center;
+
+}
+
+.box-data-3 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: #ffbd39;
+    top: 260px;
+    left: 67%;
+    color: white;
+    z-index: 15;
+    text-align: center;
+
+}
+
+.blog-box-img-3:hover {
+    transition: zoom-out 5s;
+}
 
 @media screen and (max-width:768px) {
 
@@ -590,9 +659,19 @@ nav label {
         padding-left: 120px;
         padding-right: 120px;
     }
-    .blog-container{
+
+    .blog-container {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 120px;
+        padding-right: 120px;
+        justify-items: center;
+        margin-top: 30px;
+        gap: 20px;
+    }
+    .blog-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
         padding-left: 120px;
         padding-right: 120px;
         justify-items: center;
