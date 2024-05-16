@@ -64,6 +64,7 @@ nav ul li a:hover {
     align-items: center;
 }
 
+
 .hero-img {
     position: sticky;
 
@@ -80,7 +81,7 @@ nav ul li a:hover {
 
 .hero-left-content h2 {
     font-size: 30px;
-    color: white;
+    color: #ffbd39;
 
 }
 
@@ -90,6 +91,9 @@ nav ul li a:hover {
     font-size: 30px;
     color: white;
 
+}
+.hero-left-content h1 span{
+    color: #ffbd39;
 }
 
 .hero-content p {
@@ -169,7 +173,9 @@ nav label {
 .about-content {
     width: 110%;
 }
-
+.about-content h2 span{
+    color: #ffbd39;
+}
 .about-content h3 {
     padding-top: 30px;
     padding-bottom: 10px;

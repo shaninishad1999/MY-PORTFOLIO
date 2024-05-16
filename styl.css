@@ -67,7 +67,7 @@ nav ul li a:hover {
 
 .hero-left-content h2 {
   font-size: 30px;
-  color: white;
+  color: #ffbd39;
 }
 
 .hero-left-content h1 {
@@ -75,6 +75,10 @@ nav ul li a:hover {
   margin-bottom: 20px;
   font-size: 30px;
   color: white;
+}
+
+.hero-left-content h1 span {
+  color: #ffbd39;
 }
 
 .hero-content p {
@@ -146,6 +150,10 @@ nav label {
 
 .about-content {
   width: 110%;
+}
+
+.about-content h2 span {
+  color: #ffbd39;
 }
 
 .about-content h3 {
