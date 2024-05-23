@@ -54,6 +54,9 @@ nav ul li a:hover {
     padding-top: 80px;
     background-color: #333;
     height: 100vh;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
 }
 
 .hero-content {
@@ -62,6 +65,8 @@ nav ul li a:hover {
     padding-left: 120px;
     padding-right: 120px;
     align-items: center;
+    align-content: center;
+    justify-items: center;
 }
 
 
@@ -72,11 +77,14 @@ nav ul li a:hover {
 
 .hero-img img {
 
-    max-height: 622px;
-    max-width: 800px;
-    // min-height: 50%;
+    max-height: 422px;
+    max-width: 600px;
+    border-radius: 50%;
 }
-
+.hero-img img:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
 // hero content
 
 .hero-left-content h2 {
@@ -259,6 +267,10 @@ nav label {
     }
 }
 
+.service-box:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+}
 // service section
 #service {
     background-color: #333;
@@ -364,7 +376,10 @@ nav label {
     box-shadow: 0px 2px 5px #4d4b4b;
 
 }
-
+.resume-box:hover{
+    transition: transform 0.3s ease;
+    transform: scale(0.9);
+}
 .resume-box-content {
     padding: 30px 20px;
     color: white;
@@ -460,13 +475,13 @@ nav label {
 
 
 // client feedback
-#client-feedback {
-    background-color: #312f2f;
-}
+// #client-feedback {
+//     background-color: #312f2f;
+// }
 
-.client-feedback-content {
-    padding: 100px 0px 70px;
-}
+// .client-feedback-content {
+//     padding: 100px 0px 70px;
+// }
 
 // close
 
@@ -703,7 +718,9 @@ textarea {
 
     list-style: none;
 }
-
+.footer-links li:hover{
+    margin-left: 10px;
+}
 .footer-links li a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.585);
@@ -812,6 +829,7 @@ textarea {
         grid-template-columns: repeat(2, 1fr);
         padding-left: 20px;
         padding-right: 20px;
+        gap: 20px;
     }
 
 
@@ -823,6 +841,7 @@ textarea {
         justify-content: center;
         padding-left: 20px;
         padding-right: 20px;
+        gap: 20px;
     }
 
     .portfolio-container {
@@ -1403,7 +1422,9 @@ textarea {
     }
 
     .hero-img img {
-        max-height: 550px;
+        max-height: 422px;
+    max-width: 600px;
+    border-radius: 50%;
 
     }
 
@@ -1651,7 +1672,9 @@ textarea {
     }
 
     .hero-img img {
-        max-height: 550px;
+        max-height: 422px;
+        max-width: 600px;
+        border-radius: 50%;
 
     }
 
