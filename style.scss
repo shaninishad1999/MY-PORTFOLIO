@@ -1746,7 +1746,7 @@ footer bottom
 
 // mobile view 500px
 
-@media screen and (min-width:401px) and (max-width:500) {
+// @media screen and (min-width:401px) and (max-width:500) {
 
 
     // new updated
@@ -1784,19 +1784,19 @@ footer bottom
         gap: 80px;
     }
 
-// new updated
-    nav {
-        display: flex;
-        height: 80px;
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 80px;
-        padding-right: 80px;
-        position: fixed;
-        width: 100%;
-        background-color: #312f2f;
-        z-index: 15;
-    }
+// // new updated
+//     nav {
+//         display: flex;
+//         height: 80px;
+//         justify-content: space-between;
+//         align-items: center;
+//         padding-left: 80px;
+//         padding-right: 80px;
+//         position: fixed;
+//         width: 100%;
+//         background-color: #312f2f;
+//         z-index: 15;
+//     }
 
     nav label {
         display: block;
