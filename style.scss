@@ -5,45 +5,49 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
 nav {
     display: flex;
     height: 80px;
     justify-content: space-between;
-    // background-color: #333;
+    background-color: #151313; 
     align-items: center;
     padding-left: 120px;
     padding-right: 120px;
     position: fixed;
     width: 100%;
-    background-color: #151313;
+    top: 0; 
     z-index: 15;
-
 }
+
 
 nav h1 a {
     color: white;
     text-decoration: none;
+    font-size: 24px; 
 }
+
 
 nav ul {
     display: flex;
     list-style: none;
-
 }
 
 nav ul li {
-    margin: 20px;
+    margin: 0 20px;
 }
+
 
 nav ul li a {
     text-decoration: none;
     color: rgba(245, 245, 245, 0.784);
     font-size: 17px;
+    transition: color 0.3s ease; 
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+nav ul li a:focus {
     color: white;
+    outline: none; 
 }
 
 // hero content
@@ -201,6 +205,7 @@ nav label {
 .about-content h4 i {
     margin: 2px;
     padding: 10px;
+    font-size: 20px;
     text-decoration: none;
     color: white;
     border-radius: 50%;
@@ -210,10 +215,16 @@ nav label {
 .about-content h4 i:hover {
     background-color: #2991ba;
 }
+.fa-brands{
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
 
 .about-btn {
     margin-top: 30px;
     margin-bottom: 10px;
+ 
 }
 
 .about-btn-1 {
@@ -224,7 +235,7 @@ nav label {
     background-color: #3e57d0;
     border: none;
     cursor: pointer;
-    font-size: 17px;
+    font-size: 27px;
 
 
 }
@@ -749,7 +760,7 @@ textarea {
     background-color: #ffbd39;
 }
 
-footer bottom
+
 
 .footer-bottom {
     padding: 25px;
@@ -1746,7 +1757,7 @@ footer bottom
 
 // mobile view 500px
 
-// @media screen and (min-width:401px) and (max-width:500) {
+ @media screen and (min-width:401px) and (max-width:500) {
 
 
     // new updated
@@ -2029,7 +2040,7 @@ footer bottom
         width: 100%;
     }
 
-}
+ }
 
 
 @media screen and (max-width:451px) {
@@ -2313,7 +2324,7 @@ footer bottom
     textarea {
         width: 80%;
 
-    }
+    }footer-bottom
 
     #btn {
         width: 80%;
