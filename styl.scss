@@ -22,7 +22,7 @@ nav {
     padding-right: 120px;
     position: fixed;
     width: 100%;
-    background-color: #312f2f;
+    background-color: #151313;
     z-index: 15;
 
 }
@@ -762,6 +762,14 @@ textarea {
     background-color: #312f2f;
     color: white;
     text-align: center;
+}
+
+
+#btn-btn{
+    padding: 10px;
+    border: none;
+    margin: 5px;
+    border-radius: 25px;
 }
 // mobile view 991px to 1200px
 
