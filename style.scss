@@ -167,7 +167,7 @@ nav label {
 
 #about {
     background-color: #312f2f;
-    padding-top: 50px;
+    // padding-top: 150px;
     color: white;
     padding-bottom: 100px;
 }
@@ -178,6 +178,8 @@ nav label {
     padding-left: 120px;
     padding-right: 120px;
     gap: 80px;
+    padding-top: 100px;
+    padding-bottom: 92px;
 }
 
 .about-content {
@@ -201,8 +203,17 @@ nav label {
 .about-content p {
     padding-bottom: 10px;
 }
-
-.about-content h4 i {
+.about-content a i{
+   
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    margin: 5px;
+}
+.about-content a i:hover{
+color: #ffbd39;
+}
+.about-content h4  i {
     margin: 2px;
     padding: 10px;
     font-size: 20px;
@@ -210,6 +221,9 @@ nav label {
     color: white;
     border-radius: 50%;
     background-color: #163d4d;
+}
+.about-content h4 {
+    margin-bottom: 10px;
 }
 
 .about-content h4 i:hover {
@@ -229,7 +243,7 @@ nav label {
 }
 
 .about-btn-1 {
-    padding: 15px 40px 15px 40px;
+    padding: 8px 30px 8px 30px;
     margin-right: 20px;
     font-weight: bold;
     color: white;
@@ -355,19 +369,26 @@ nav label {
 
 // my resume section
 #resume {
-    background-color: #312f2f;
+
+    background-color: #3b3636;
 }
 
-.resume-content {
-    padding: 100px 0px 70px;
 
+.k h1{
+    padding-top: 150px;
+    
 }
+.newclass{
+    padding-bottom: 30px;
+}
+
 
 .resume-heading h2 {
     padding-top: 30px;
     text-align: center;
     font-size: 38px;
     color: white;
+    
 }
 
 .resume-container {
@@ -399,7 +420,7 @@ nav label {
     background: #ffbd39;
     color: #fff;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 18px;
     padding: 2px 14px;
     display: inline-block;
     border-radius: 20px;
@@ -426,6 +447,10 @@ nav label {
     padding-right: 120px;
     justify-items: center;
 
+}
+.newclass{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .experience-heading {
@@ -772,10 +797,15 @@ textarea {
 
 
 #btn-btn{
-    padding: 10px;
+    // padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border: none;
     margin: 5px;
     border-radius: 25px;
+    font-size: 17px;
 }
 // mobile view 991px to 1200px
 
@@ -793,6 +823,7 @@ textarea {
         width: 70%;
         background-color: black;
         display: none;
+        line-height: 2.0;
 
     }
 
@@ -957,6 +988,7 @@ textarea {
         width: 70%;
         background-color: black;
         display: none;
+        line-height: 2.0;
 
     }
 
@@ -1119,6 +1151,7 @@ textarea {
         width: 70%;
         background-color: black;
         display: none;
+        line-height: 2.0;
 
     }
 
@@ -1295,6 +1328,7 @@ textarea {
         width: 70%;
         background-color: black;
         display: none;
+        line-height: 2.0;
 
     }
 
@@ -1538,6 +1572,7 @@ textarea {
         width: 70%;
         background-color: black;
         display: none;
+        line-height: 2.0;
 
     }
 
@@ -1796,19 +1831,7 @@ textarea {
         gap: 80px;
     }
 
-// // new updated
-//     nav {
-//         display: flex;
-//         height: 80px;
-//         justify-content: space-between;
-//         align-items: center;
-//         padding-left: 80px;
-//         padding-right: 80px;
-//         position: fixed;
-//         width: 100%;
-//         background-color: #312f2f;
-//         z-index: 15;
-//     }
+
 
     nav label {
         display: block;
@@ -1822,6 +1845,7 @@ textarea {
         width: 70%;
         background-color: black;
         display: none;
+        line-height: 2.0;
 
     }
 
@@ -2126,9 +2150,10 @@ textarea {
         position: absolute;
         top: 80px;
         left: 0px;
-        width: 70%;
+        width: 60%;
         background-color: black;
         display: none;
+        line-height: 2.0;
 
     }
 
